@@ -136,9 +136,10 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  /* background-image: url("/banner image/489350.jpg"); */
   background-image: url("/banner image/banner-main-large4.jpg");
-  /* background-image: url("/banner image/Programmers Wallpapers HD by PCbots.jpg"); */
+  /* background-image: url("/banner image/portfolio-wallpapers/daan-stevens-404247-unsplash.jpg"); */
+  /* background-image: url("/banner image/portfolio-wallpapers/alisa-anton-66108-unsplash.jpg"); */
+  /* background-image: url("/banner image/portfolio-wallpapers/stil-243563-unsplash.jpg"); */
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
