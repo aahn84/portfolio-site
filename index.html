@@ -87,14 +87,15 @@
               <i class="fa fa-magic"></i>
             </span>
             <h4 class="service-heading">UX/UI</h4>
-            <p class="text-muted">Once we have a well laid-out plan, I'll use structure and layout to design a beautiful user experience.</p>
+            <p class="text-muted">I'll use HTML and CSS to structure and layout a responsive user experience that will look great on any device.</p>
+            <!-- <p class="text-muted">I'll use HTML and CSS to structure and layout a beautiful user experience that's responsive so it will look great on any device.</p> -->
           </div>
           <div class="col-md-4"id="svcs">
             <span class="fa-stack fa-4x">
               <i class="fa fa-code"></i>
             </span>
             <h4 class="service-heading">Development</h4>
-            <p class="text-muted">I'll use HTML, CSS, and JavaScript to make your website responsive so it will look great on any device.</p>
+            <p class="text-muted">I'll use React, Express with Node.js, PostgreSQL and RESTful APIs to support your data from front to back.</p>
           </div>
         </div>
       </div>
@@ -121,6 +122,21 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
+              <img class="img-fluid" src="img/portfolio/05-paperplane-thumb400x300.png" alt="paperplane-logo">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Paperplane</h4>
+              <p class="text-muted">Full-stack Web Application</p>
+            </div>
+          </div>
+          <!-- Portfolio 2 -->
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
               <img class="img-fluid" src="img/portfolio/04-rubbersoul-thumb400x300.png" alt="rubbersoul-logo">
             </a>
             <div class="portfolio-caption">
@@ -128,9 +144,9 @@
               <p class="text-muted">Full-stack Site</p>
             </div>
           </div>
-          <!-- Portfolio 2 -->
+          <!-- Portfolio 3 -->
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -143,11 +159,11 @@
               <p class="text-muted">Full-stack Site</p>
             </div>
           </div>
-          <!-- Portfolio 3 -->
+          <!-- Portfolio 4 -->
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
               <div class="portfolio-hover">
-                <div class="iportfolio-hover-content">
+                <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
@@ -158,21 +174,6 @@
               <p class="text-muted">UX/UI & Website Design</p>
             </div>
           </div>
-          <!-- Portfolio 4 -->
-          <!-- <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/03-pixelartmaker-thumb.png" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Pixel Art Maker</h4>
-              <p class="text-muted">UX/UI & Website Design</p>
-            </div>
-          </div> -->
           <!-- Portfolio 5 -->
           <!-- <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
@@ -274,6 +275,40 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Paperplane</h2>
+                  <p class="item-intro text-muted">Full-stack web app with React-Redux & React-Router.</p>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/7qhBXYv4Ebs?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  <p>Mobile-first web app that allows users to track and receive SMS notifications for upcoming flights. Users can create an account, add custom trips, and assign flights to individual trips. Leverages Aviation-Edge API, Textio, and Heroku Scheduler. Backend built with Node.js/Express, and database in PostgreSQL.</p>
+                  <ul class="list-inline">
+                    <li>Date: April 2018</li>
+                    <li>Client: Paperplane</li>
+                    <li>Category: Full-stack</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">RubberSoul</h2>
                   <p class="item-intro text-muted">Full-stack e-commerce site with React.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/04-rubbersoul-full.png" alt="rubbersoul-logo">
@@ -294,8 +329,8 @@
       </div>
     </div>
 
-    <!-- Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -328,8 +363,8 @@
       </div>
     </div>
 
-    <!-- Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -350,40 +385,6 @@
                     <li>Date: December 2017</li>
                     <li>Client: Hogwarts</li>
                     <li>Category: UX/UI & Website Design</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Lines</li>
-                    <li>Category: Branding</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
