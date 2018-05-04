@@ -246,6 +246,11 @@ header.masthead {
   #portfolio .portfolio-item {
     margin: 0 0 30px; } }
 
+@media (max-width: 640px) {
+  iframe {
+    width: 100%;
+    height: 100%; } }
+
 .portfolio-modal {
   padding-right: 0px !important; }
   .portfolio-modal .modal-dialog {
@@ -253,9 +258,9 @@ header.masthead {
     max-width: 100vw; }
   .portfolio-modal .modal-content {
     padding: 100px 0;
-    text-align: center; }
+    text-align: center;}
     .portfolio-modal .modal-content h2 {
-      font-size: 3em;
+      font-size: 2em;
       margin-bottom: 15px; }
     .portfolio-modal .modal-content p {
       margin-bottom: 30px; }
