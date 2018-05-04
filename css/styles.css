@@ -364,6 +364,35 @@ section#contact {
   font-style: italic;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
+#contactButtonsRow {
+  display: flex;
+  justify-content: center;
+}
+
+#contactButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* max-width: 65%; */
+}
+
+#sendMessageButton {
+  min-width: 10em;
+}
+
+@media (max-width: 640px) {
+  #contactButtons {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  #sendMessageButton {
+    width: 87%;
+  }
+  .col-lg-3, .text-center {
+    margin: 0.5em 0 0.5em 0;
+  }
+}
+
 footer {
   padding: 25px 0;
   text-align: center; }
